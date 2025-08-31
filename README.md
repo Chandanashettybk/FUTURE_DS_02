@@ -22,23 +22,23 @@ The dashboard gives both a high-level executive overview and detailed drill-down
 
 The dataset (fb ads.xlsx) contains information about ad campaigns, including:
 
-ad_id – Unique identifier for each ad
+1. ad_id – Unique identifier for each ad
 
-campaign_id / fb_campaign_id – Campaign-level grouping
+2. campaign_id / fb_campaign_id – Campaign-level grouping
 
-reporting_start / reporting_end – Reporting period
+3. reporting_start / reporting_end – Reporting period
 
-impressions – Number of times the ad was shown
+4. impressions – Number of times the ad was shown
 
-clicks – Number of times users clicked the ad
+5. clicks – Number of times users clicked the ad
 
-spent – Total spend in that period
+6. spent – Total spend in that period
 
-total_conversion – Total number of conversions
+7. total_conversion – Total number of conversions
 
-approved_conversion – Approved/validated conversions
+8. approved_conversion – Approved/validated conversions
 
-demographics – Age, gender, etc. for audience segmentation
+9. demographics – Age, gender, etc. for audience segmentation
 
 🛠 Data Cleaning Steps
 
@@ -80,9 +80,8 @@ Approval Rate % = Approved ÷ Conversions
 
 CPA (Cost per Approved Conversion) = Spend ÷ Approved
 
-ROI / ROAS = (Revenue – Spend) ÷ Spend
 
-A What-If Parameter was created to simulate Revenue per Conversion, allowing ROI/ROAS analysis.
+
 
 📊 Dashboard Features
 
@@ -126,13 +125,13 @@ Clone the repo or download files.
 
 🎯 Key Learnings
 
-Hands-on practice with data cleaning and logical validation.
+* Hands-on practice with data cleaning and logical validation.
 
-Built advanced Power BI measures with DAX.
+* Built advanced Power BI measures with DAX.
 
-Learned how to structure KPI dashboards for business decisions.
+* Learned how to structure KPI dashboards for business decisions.
 
-Practiced storytelling with data for actionable insights.
+* Practiced storytelling with data for actionable insights.
 Open fb ads.xlsx in Power BI.
 
 Import the DateTable.csv (for proper date hierarchy).
